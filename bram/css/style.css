@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *:before, *:after { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #272727;
+    display: flex;
+    height: 100svh;
+    width: 100svw;
+}
+
+.mainTitelAndLogo {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.worlds {
+    height: 100%;
+    flex: 1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+}
+
+.card {
+    height: 225px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    transition: all  0.5s ease;
+
+}
+
+.card:hover {
+    scale: 1.05;
+}
+
+.cardInformation {
+    max-width: 300px;
+}
+
+.cardTitel {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.cardDescription {
+    text-wrap: wrap;
+    max-width: 300px;
+}
+
+.card img {
+    width: 364.75px;
+    height: 205px;
+}
+
+.minecraftGrassBlock {
+    height: 600px;
+    width: 600px;
+    margin-left: 140px;
+}
+
+.mainTitel {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.minecraftLogo {
+    height: 250px;
+}
+
+.backArrow {
+    height: 175px;
+}   
