@@ -75,8 +75,19 @@ body {
 .minecraftGrassBlock {
     height: 600px;
     width: 600px;
+    margin-left: 140px;
+}
+
+.mainTitel {
+    display: flex;
+    align-items: center;
+    height: fit-content;
 }
 
 .minecraftLogo {
     height: 250px;
 }
+
+.backArrow {
+    height: 175px;
+}   
