@@ -72,10 +72,11 @@ body {
     height: 205px;
 }
 
-.minecraftGrassBlock {
+#container3D {
     height: 600px;
     width: 600px;
     margin-left: 140px;
+    margin-top: 140px;
 }
 
 .mainTitel {
@@ -85,9 +86,9 @@ body {
 }
 
 .minecraftLogo {
-    height: 250px;
+    height: 125px;
 }
 
 .backArrow {
-    height: 175px;
+    height: 100px;
 }   
