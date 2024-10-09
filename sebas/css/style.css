@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgborder1 {
+    border: 5px;
+    border-color: #ff0000;
+    border-radius: 25px;
+}
+
+.content {
+    margin-top: 100px; 
+    padding: 15px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.informatie {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    border-radius: 25px;
+    background-color: #0c0c0c; 
+    color: #fff; 
+    padding: 20px; 
+    box-shadow: 0 0 15px rgb(0, 0, 0); 
+    width: 700px;
+    margin-right: 100px;
+    transition: transform 0.3s ease;
+}
+
+.afbeelding {
+    margin-right: 20px; 
+
+}
+
+.informatie:hover {
+    transform: scale(1.05);
+}
+
+.tekstvak {
+    text-align: center;
+    background-color: #001b6b77;
+    border-radius: 15px;
+    padding: 15px;
+    width: 510px; 
+}
+
+.tekstvak h2 {
+    margin: 0 0 10px; 
+}
+
+.tekstvak p {
+    margin: 5px 0; 
+}
+
+.gameplay {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    border-radius: 25px;
+    background-color: #0c0c0c; 
+    color: #fff; 
+    padding: 20px; 
+    box-shadow: 0 0 15px rgb(0, 0, 0); 
+    width: 700px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.gameplay:hover {
+    transform: scale(1.05);
+}
+
+.tekstvak2 {
+    text-align: center;
+    background-color: #6b000077; 
+    border-radius: 15px;
+    padding: 15px;
+    width: 510px; 
+}
+
+.tekstvak2 h2 {
+    margin: 0 0 10px; 
+}
+
+.tekstvak2 p {
+    margin: 5px 0; 
+}
+
+
+
+.top-bar {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.dropdown {
+    position: fixed;
+    margin-left: 1850px;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(248, 0, 0, 0.2);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 15px;
+}
+
+
+
+.dropdown-content a:hover {
+    background-color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+
+h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+.boveninwebsite{
+    color: white;
+}
+
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.7); 
+    color: white;
+    font-family: Arial, sans-serif;
+
+}
+
+
+h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.7); 
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+
+
+.dikke-afbeelding {
+    margin-top: 10%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dikke-afbeelding img {
+    width: 100%; 
+
+}
+
+.titleimage {
+    position: absolute;
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-shadow: 4px 4px 8px rgba(255, 0, 0, 0.7); 
+    text-align: center;
+}
