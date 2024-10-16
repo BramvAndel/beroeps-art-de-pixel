@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+.mainimages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainimages a {
+    flex: 1;
+    margin: 0 5px; 
+    border: 2px solid black; 
+    overflow: hidden; 
+    position: relative; /* Voor absolute positionering van de overlay */
+}
+
+.overlay {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 44px; 
+    text-align: center; 
+    z-index: 1; 
+    padding: 10px; 
+    transition: opacity 0.3s; 
+}
+
+.mainimages img {
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s; /* Hover-effect voor de afbeelding */
+}
+
+.mainimages a:hover img {
+    transform: scale(1.1); /* Vergroot de afbeelding bij hover */
+}
+
+.mainimages a:hover .overlay {
+    opacity: 1; /* Zorgt ervoor dat de overlay zichtbaar blijft */
+}
