@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bf9d41;
+}
+
+header {
+    background-color:#3667ec ;
+    color: #ff0000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: black;
+}
+
+section {
+    margin: 20px 0;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.game, .character {
+    margin: 20px 0;
+}
+
+.game-image, .character-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4caf50;
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+h4 {
+    text-align: right;
+}
+
+main > * {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+main > *:nth-child(1) { animation-delay: .2s;}
+main > *:nth-child(2) { animation-delay: .4s;}
+main > *:nth-child(3) { animation-delay: .6s;}
+main > *:nth-child(4) { animation-delay: .8s;}
+main > *:nth-child(5) { animation-delay: 1s;}
+main > *:nth-child(6) { animation-delay: 1.2s;}
+main > *:nth-child(7) { animation-delay: 1.4s;}
+main > *:nth-child(8) { animation-delay: 1.6s;}
+main > *:nth-child(9) { animation-delay: 1.8s;}
+main > *:nth-child(10) { animation-delay: 2s;}
+main > *:nth-child(11) { animation-delay: 2.2s;}
+main > *:nth-child(12) { animation-delay: 2.4s;}
+main > *:nth-child(13) { animation-delay: 2.6s;}
+main > *:nth-child(14) { animation-delay: 2.8s;}
+main > *:nth-child(15) { animation-delay: 3s;}
+main > *:nth-child(16) { animation-delay: 3.2s;}
+main > *:nth-child(17) { animation-delay: 3.4s;}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+

@@ -1,9 +1,4 @@
-{.
-    font-family: Arial, sans-serif;
-    background-color: #bf9d41;
-    margin: 0;
-    padding: 20px;
-}
+
 .quiz-container {
     background-color: #845b3f(107, 75, 6);
     padding: 20px;
@@ -20,7 +15,7 @@
     margin: 10px 0;
     padding: 10px;
     background-color: #845b3f(107, 75, 6);
-    background-color: ;
+    background-color: #c19a80;
     color: rgb(84, 81, 57);
     border: none;
     border-radius: 5px;
