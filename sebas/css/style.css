@@ -16,6 +16,39 @@ body {
     border-radius: 25px;
 }
 
+.info-box {
+    text-align: center;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    height: 600px;
+    width: 530px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #001e3a;
+    transition: transform 0.3s; 
+}
+
+.info-box2 {
+    text-align: center;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    height: 400px;
+    width: 1030px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #001e3a;
+    transition: transform 0.3s; 
+}
+
+
+.info-box:hover {
+    transform: scale(1.05);
+}  
+.info-box2:hover {
+    transform: scale(1.05);
+}  
+
+
 .content {
     margin-top: 100px; 
     padding: 15px;
@@ -226,20 +259,20 @@ h2 {
 }
 
 .back-button {
-    display: inline-block; /* Zorgt ervoor dat de knop als een blok werkt */
-    padding: 15px 30px; /* Binnenruimte van de knop */
-    font-size: 18px; /* Grootte van de tekst */
-    color: white; /* Tekstkleur */
-    background-color: #007bff; /* Knopkleur */
-    border: none; /* Geen rand */
-    border-radius: 5px; /* Ronde hoeken */
-    text-decoration: none; /* Geen onderlijn */
-    transition: background-color 0.3s, transform 0.3s; /* Overgangseffect voor hover */
+    display: inline-block; 
+    padding: 15px 30px; 
+    font-size: 18px; 
+    color: white;
+    background-color: #001e3a;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    text-decoration: none; 
+    transition: background-color 0.3s, transform 0.3s; 
 }
 
 .back-button:hover {
-    background-color: #0056b3; /* Donkerdere kleur bij hover */
-    transform: scale(1.05); /* Vergroot de knop iets bij hover */
+    background-color: #560000;
+    transform: scale(1.05);
 }   
 
 .flexy  {
@@ -249,5 +282,5 @@ h2 {
 footer {
     padding: 25px;
     margin-top: 100px;
-    background-color: #1a1a1a;
+    background-color: #000000;
 }
