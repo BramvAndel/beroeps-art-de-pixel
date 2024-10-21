@@ -32,6 +32,7 @@ body {
     position: absolute;
     top: 30%; 
     left: 50%;
+    text-shadow: 1px 1px 6px white;
     transform: translate(-50%, -50%); 
     font-size: 44px; 
     text-align: center; 
