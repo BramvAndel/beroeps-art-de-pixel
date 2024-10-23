@@ -14,20 +14,11 @@ if (world == "end") {
   models = ["blaze", "ghast"];
 } else if (world == "overworld") {
   models = [
-    "axolotl",
     "bee",
-    "cat",
     "cave spider",
     "chicken",
     "cow",
-    "creeper",
-    "panda",
-    "parrot",
-    "phantom",
     "pig",
-    "pillager",
-    "polar bear",
-    "ravager",
     "sheep",
   ];
 }
