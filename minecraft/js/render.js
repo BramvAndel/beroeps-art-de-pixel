@@ -9,6 +9,7 @@ renderer.setClearColor(0x000000, 0); // Set clear color with alpha 0 for transpa
 renderer.setPixelRatio(window.devicePixelRatio);
 
 const scene = new THREE.Scene();
+// scene.position.y = -100;
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
 camera.position.set(4, 5, 11);
 
@@ -125,3 +126,5 @@ function initializeScene(containerId, model) {
     animate();
   }
 }
+
+export {scene}

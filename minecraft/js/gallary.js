@@ -1,4 +1,4 @@
-import { loadAndInitializeModel } from "./render.js";
+import { loadAndInitializeModel, scene } from "./render.js";
 
 let models = [];
 
@@ -28,6 +28,7 @@ document.getElementById("next").addEventListener("click", nextModel);
 
 function nextModel() {
   applyTransition();
+
   setTimeout(() => {
     if (currentModel < models.length - 1) {
       currentModel++;
