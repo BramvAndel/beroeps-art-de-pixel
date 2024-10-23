@@ -1,4 +1,4 @@
-import { loadAndInitializeModel } from "./render.js";
+import { loadAndInitializeModel, scene } from "./render.js";
 
 let models = [];
 
@@ -14,20 +14,11 @@ if (world == "end") {
   models = ["blaze", "ghast"];
 } else if (world == "overworld") {
   models = [
-    "axolotl",
     "bee",
-    "cat",
     "cave spider",
     "chicken",
     "cow",
-    "creeper",
-    "panda",
-    "parrot",
-    "phantom",
     "pig",
-    "pillager",
-    "polar bear",
-    "ravager",
     "sheep",
   ];
 }
@@ -37,6 +28,7 @@ document.getElementById("next").addEventListener("click", nextModel);
 
 function nextModel() {
   applyTransition();
+
   setTimeout(() => {
     if (currentModel < models.length - 1) {
       currentModel++;
