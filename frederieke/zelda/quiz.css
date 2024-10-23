@@ -1,9 +1,22 @@
+body {
+    background-color: #bf9d41;
+
+}
+
+
+
+
+
+
+
+
+
 
 .quiz-container {
-    background-color: #845b3f(107, 75, 6);
+    background-color: #423a34(107, 75, 6);
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgb(108, 110, 12, 0.86);
+    box-shadow: 0 0 10px #b8fc0d(251, 255, 0, 0.86);
     max-width: 600px;
     margin: auto;
 }
@@ -15,16 +28,17 @@
     margin: 10px 0;
     padding: 10px;
     background-color: #845b3f(107, 75, 6);
-    background-color: #c19a80;
+    background-color: #17bc51;
     color: rgb(84, 81, 57);
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 .button:hover {
-    background-color: #918653;
+    background-color: #5b88f2;
 }
 .result {
     font-size: 20px;
     margin-top: 20px;
 }
+

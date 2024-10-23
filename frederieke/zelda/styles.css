@@ -63,5 +63,14 @@ footer {
 }
 
 h4 {
-    text-align: right;
+    
+    font-family: serif;
+}
+
+h2 {
+    font-family: serif;
+}
+
+h1 {
+    font-family: serif;
 }

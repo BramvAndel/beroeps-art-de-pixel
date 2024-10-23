@@ -98,3 +98,22 @@ main > *:nth-child(17) { animation-delay: 3.4s;}
     }
 }
 
+h1 {
+    font-family: serif;
+    font-size: 50px
+
+}
+
+h2 {
+    font-family: serif;
+    font-size: 30px
+
+
+}
+
+p {
+    font-family: serif;
+    font-size: 20px
+}
+
+

@@ -43,6 +43,11 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.game{
+    background-image: url(sword.jpg);
+    background-size: cover;
+}
+
 .game, .character {
     margin: 20px 0;
 }
