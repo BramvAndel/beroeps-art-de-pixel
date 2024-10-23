@@ -31,18 +31,17 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  
+
   background-color: var(--gray-2);
-  box-shadow: inset 0 0 0 0 rgba(255, 255, 255, .15), 
-              inset 4px 0 0 0 rgba(0, 0, 0, .30), 
-              inset 0 0 0 0 rgba(0, 0, 0, 1), 
-              inset 0 2px 0 0 rgba(255, 255, 255, .2); 
+  box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0.15),
+    inset 4px 0 0 0 rgba(0, 0, 0, 0.3), inset 0 0 0 0 rgba(0, 0, 0, 1),
+    inset 0 2px 0 0 rgba(255, 255, 255, 0.2);
 }
 
 .button-main-page-active {
   background-color: var(--gray-1);
-  box-shadow: inset 0 0 0 0 rgba(255, 255, 255, .15), 
-              inset -4px 6px 0 0 rgba(255, 255, 255, .2);
+  box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0.15),
+    inset -4px 6px 0 0 rgba(255, 255, 255, 0.2);
   z-index: 10;
 }
 
@@ -68,7 +67,9 @@
   height: 698px;
   padding: 50px;
   background-color: var(--gray-1);
-  box-shadow: inset -4px 0 0 0 rgba(255, 255, 255, .16), inset 0 -4px 0 0 rgba(0, 0, 0, .32), inset 0 4px 0 0 rgba(255, 255, 255, .2);
+  box-shadow: inset -4px 0 0 0 rgba(255, 255, 255, 0.16),
+    inset 0 -4px 0 0 rgba(0, 0, 0, 0.32),
+    inset 0 4px 0 0 rgba(255, 255, 255, 0.2);
 }
 
 .infoPanelWrapper {
@@ -81,11 +82,15 @@
   margin-right: 50px;
 }
 
-.gameInfoVideo {
+.gameInfoFoto {
   float: left;
   width: 50%;
   height: 100%;
   background-color: var(--background-color);
+  background-image: url(../images/backgrounds/Homepage_Gameplay-Trailer_MC-OV_1080x720.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .infoPanelTitle {
@@ -99,8 +104,8 @@
 .learn-more {
   width: 194px;
   height: calc(54px - 12px);
-  background-color: #3C8527;
-  box-shadow: 0 -6px 0 0 #52A535, 0 6px 0 0 #2A641C;
+  background-color: #3c8527;
+  box-shadow: 0 -6px 0 0 #52a535, 0 6px 0 0 #2a641c;
   display: flex;
   align-items: center;
   justify-content: center;
