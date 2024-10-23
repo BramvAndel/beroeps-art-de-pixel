@@ -1,0 +1,11 @@
+Model Information:
+* title:	Minecraft - Cave Spider
+* source:	https://sketchfab.com/3d-models/minecraft-cave-spider-15df655edf8b401390beec5bb0d5560c
+* author:	Vincent Yanez (https://sketchfab.com/vinceyanez)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Minecraft - Cave Spider" (https://sketchfab.com/3d-models/minecraft-cave-spider-15df655edf8b401390beec5bb0d5560c) by Vincent Yanez (https://sketchfab.com/vinceyanez) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

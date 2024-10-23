@@ -1,0 +1,92 @@
+.main-title {
+  background-image: url(../images/backgrounds/minecraft_main__page_1920x560.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 560px;
+  margin-top: 80px;
+}
+
+.main-wrapper {
+  height: 715px;
+  width: calc(100svw - 160px);
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: -80px;
+  display: flex;
+}
+
+.main-title img {
+  height: 112px;
+  position: absolute;
+  top: 118px;
+}
+
+.about-minecraft {
+  background-color: var(--gray-3);
+  max-width: 1032px;
+  margin-right: 28px;
+  padding: 50px;
+  border-top: 5px solid var(--border-bottom);
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-minecraft-info {
+  width: 60%;
+}
+
+.about-minecraft-info h1 {
+  font-family: MCten;
+  font-size: 64px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.about-minecraft-info p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  word-wrap: normal;
+}
+
+#steveModel {
+  width: 354px;
+  height: 605px;
+  background-color: var(--background-color);
+  border-bottom: 5px solid var(--border-bottom);
+}
+
+.world {
+  width: 700px;
+  height: 225px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  background-color: var(--gray-3);
+  border-top: 5px solid var(--border-bottom);
+}
+
+.world img {
+  height: 205px;
+}
+
+.world-info {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 380px);
+}
+
+.world-info h1 {
+  font-family: MCten;
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.world-info p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+}

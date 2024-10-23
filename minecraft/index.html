@@ -1,57 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minecraft</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
-    <script type="importmap">
-      {
-        "imports": {
-          "three": "https://unpkg.com/three@v0.163.0/build/three.module.js",
-          "three/addons/": "https://unpkg.com/three@v0.163.0/examples/jsm/"
-        }
-      }
-    </script>
-</head>
-<body>
-    <div class="mainTitelAndLogo">
-        <div class="mainTitel">
-            <a href="../index.html"><img src="images/backArrow.png" alt="backArrow" class="backArrow"></a>
-            <img src="images/minecraft_title.png" alt="minecraftLogo" class="minecraftLogo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minecraft info panel</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/icons/creeper_face.ico"
+    />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/fonts.css" />
+    <link rel="stylesheet" href="style/general.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <svg
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
+          fill="currentcolor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24 0H16V4H12V8H8V12H4V16H0V20H4V40H18V28H22V40H36V20H40V16H36V12H32V8H28V4H24V0ZM24 4V8H28V12H32V16H36V20H32V36H26V24H14V36H8V20H4V16H8V12H12V8H16V4H24Z"
+            fill="currentcolor"
+          />
+        </svg>
+      </a>
+      <a href="./" id="header-image">
+        <img
+          src="images/titels/general titles/minecraft_title.png"
+          alt="minecraft title"
+        />
+      </a>
+      <div>
+        <a href="./minecraft"
+          ><img
+            src="images/icons/minecraft_icon_300x300.png"
+            alt="Minecraft icon"
+            class="header-icon"
+          />
+          <p>Minecraft</p></a
+        >
+        <!-- <a href="./minecraft_dungeons"
+          ><img
+            src="images/icons/minecraft_dungeons_icon_300x300.png"
+            alt="Minecraft icon"
+            class="header-icon"
+          />
+          <p>Minecraft Dungeons</p></a
+        >
+        <a href="./minecraft_legends"
+          ><img
+            src="images/icons/minecraft_legends_icon_300x300.webp"
+            alt="Minecraft icon"
+            class="header-icon"
+          />
+          <p>Minecraft Legends</p></a
+        > -->
+      </div>
+    </header>
+    <section class="main-title">
+      <img
+        src="images/titels/general titles/minecraft_title_home_page.png"
+        alt="minecraft, everything you need to know. discover now"
+      />
+    </section>
+    <section class="gameselect">
+      <div class="selectbuttons">
+        <button class="button-main-page button-main-page-active">
+          <img
+            src="images/icons/minecraft_icon_300x300.png"
+            alt="minecraft icon"
+          /><span>Minecraft</span>
+        </button>
+        <!-- <button class="button-main-page"><img src="images/icons/minecraft_dungeons_icon_300x300.png" alt="minecraft dungeons icon"><span>Minecraft Dungeons</span></button>
+    <button class="button-main-page"><img src="images/icons/minecraft_legends_icon_300x300.webp" alt="minecraft legends icon"><span>Minecraft Legends</span></button> -->
+      </div>
+      <div class="gameInfoPanel">
+        <div class="infoPanelWrapper">
+          <div class="infoPanelGameInfo">
+            <h1 class="infoPanelTitle">Hoe het allemaal begon</h1>
+            <p class="infoPanelInfo">
+              Minecraft begon in 2009 als een passieproject van de Zweedse
+              ontwikkelaar Markus "Notch" Persson. Geïnspireerd door spellen
+              zoals Dwarf Fortress en Infiniminer, wilde Notch een game creëren
+              waarin spelers volledige vrijheid hadden om te bouwen en de wereld
+              om hen heen te verkennen. In mei 2009 bracht hij een eerste versie
+              van het spel uit, dat toen nog in de vroege alpha-fase zat. Het
+              spel heette toen nog "Cave Game" en had zeer eenvoudige graphics,
+              bestaande uit blokken die spelers konden plaatsen of breken.
+              <br /><br />
+              Al snel groeide de populariteit van het spel, en de
+              Minecraft-community begon zich te ontwikkelen. Door het toevoegen
+              van nieuwe functies zoals crafting, mobs, en verschillende biomes,
+              begon Minecraft uit te groeien tot een uitgebreider spel. In 2011
+              werd de officiële versie van Minecraft uitgebracht door Mojang, de
+              studio die Notch had opgericht om het spel verder te ontwikkelen.
+              Het sandbox-genre waarin spelers volledige vrijheid kregen om hun
+              eigen wereld te bouwen en te ontdekken, sprak miljoenen mensen
+              wereldwijd aan.
+            </p>
+          </div>
+          <div>
+            <a href="minecraft/" class="learn-more"
+              ><span id="learn">LEARN MORE</span
+              ><span id="learn-more-arrow">></span></a
+            >
+          </div>
         </div>
-        <div id="container3D"></div>
-    </div>
-    <div class="worlds">
-        <a href="./overworld">
-            <div class="card">
-                <div class="cardInformation">
-                    <h1 class="cardTitel">THE OVERWORLD</h1>
-                    <p class="cardDescription">Everything you need to know about the overworld</p>
-                </div>
-                <img src="images/overworld.png" alt="picture of the nether">
-            </div>
-        </a>
-        <a href="./nether">
-            <div class="card">
-                <div class="cardInformation">
-                    <h1 class="cardTitel">THE NETHER</h1>
-                    <p class="cardDescription">Everything you need to know about The Nether</p>
-                </div>
-                <img src="images/nether.png" alt="picture of the nether">
-            </div>
-        </a>
-        <a href="./end">
-            <div class="card">
-                <div class="cardInformation">
-                    <h1 class="cardTitel">THE END</h1>
-                <p class="cardDescription">Everything you need to know about The End</p>
-                </div>
-                <img src="images/end.png" alt="picture of the end">
-            </div>
-        </a>
-    </div>
-    <script type="module" src="js/cube.js"></script>
-</body>
+        <div class="gameInfoVideo"></div>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
 </html>
